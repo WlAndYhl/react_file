@@ -1,0 +1,1488 @@
+/* Base Application Styles */
+*{
+  margin:0;
+  padding:0;
+  list-style: none;
+  text-decoration: none;
+}
+html,body{
+  width:100%;
+  height:100%;
+}
+#app{
+  width:100%;
+  height:100%;
+}
+/*  
+  注册页
+*/
+.login{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+}
+.login header {
+  width: 100%;
+  height: 2.2rem; 
+}
+.login header ul{
+  width:100%;
+  height:2.2rem;
+  background:#000;
+  display:flex;
+}
+.login header ul .loginHeaderOne{
+  flex:3;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.login header ul .loginHeaderOne span{
+  padding: 0 5px;
+  font-size:.6rem;
+  color:#fff;
+}
+.login header ul .loginHeaderTwo{
+  flex:4;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.login header ul .loginHeaderTwo p{
+  font-size:.7rem;
+  color:#fff;
+}
+.login header ul .loginHeaderThree{
+  flex:3;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.login header ul .loginHeaderThree span{
+  color:#fff;
+  font-size:.7rem;
+}
+.login main{
+  flex:1;
+  overflow: auto;
+}
+.login main .telForm{
+  width:80%;
+  height:1.5rem;
+  margin-left:10%;
+  margin-top:3rem;
+}
+.login main .telForm input{
+  width:100%;
+  height:1.5rem;
+  border:1px solid #ccc;
+  text-indent: .5rem;
+  font-size:.7rem;
+}
+.login main .yzmForm{
+  width:80%;
+  height:1.5rem;
+  margin-left:10%;
+}
+.login main .yzmForm input{
+  width:60%;
+  height:1.5rem;
+  border:1px solid #ccc;
+  float:left;
+  text-indent: .5rem;
+  font-size:.7rem;
+}
+.login main .yzmForm button{
+  float:left;
+  width:39.2%;
+  height:1.55rem;
+  background:#fff;
+  outline: none;
+  border: 1px solid #ccc;
+  font-size:.6rem;
+}
+.login main .yzmForm .getYzm{
+  color:red;
+}
+.login main .loginTip{
+  margin-top:.4rem;
+  font-size:.6rem;
+  float:right;
+  font-weight:bold;
+  margin-right:10px;
+}
+.login main .loginTip span{
+  color:red;
+}
+.login main .log{
+  width:80%;
+  margin-left:10%;
+  margin-top:1rem;
+  height:2rem;
+  border:2px solid #ccc;
+  font-size:.75rem;
+  background: #fff;
+  border-radius:10px;
+  color:#ccc;
+}
+.login main .readyRead{
+  float:right;
+  margin-right:10px;
+  font-size:.6rem;
+  margin-top:1rem;
+}
+/*  
+  会员中心
+*/
+html,body{
+  width:100%;
+  height:100%;
+}
+.myCenter{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.myCenter header{
+  width:100%;
+  height:1.5rem;
+  background: #000;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.myCenter header p{
+  font-size:.7rem;
+  color:#fff;
+}
+.myCenter main{
+  width:100%;
+  height:20rem;
+}
+.myCenter main .userInfo{
+  width:100%;
+  height:3rem;
+  margin-top:2rem;
+}
+.myCenter main .userInfo ul{
+  width:100%;
+  height:3rem;
+  margin-top:2rem;
+  display: flex;
+}
+.myCenter main .userInfo ul .userInfoOne{
+  flex:2;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.myCenter main .userInfo ul .userInfoOne p{
+  width:2rem;
+  height:2rem;
+  border:1px solid #ccc;
+  border-radius:50%;
+}
+.myCenter main .userInfo ul .userInfoOne p img{
+  width:100%;
+  height:100%;
+  border-radius:50%;
+}
+.myCenter main .userInfo ul .userInfoTwo{
+  flex:5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.myCenter main .userInfo ul .userInfoTwo p{
+  font-size:.7rem;
+  color: #333;
+}
+.myCenter main .userInfo ul .userInfoTwo dl{
+  width:90%;
+  height:1rem;
+  margin-top:.3rem;
+  border:1px solid #ccc;
+  border-radius:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myCenter main .userInfo ul .userInfoTwo dl dt{
+  font-size:.7rem;
+}
+.myCenter main .userInfo ul .userInfoThree{
+  flex:2;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.myCenter main .userInfo ul .userInfoThree p{
+  width:2rem;
+  height:2rem;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.myCenter main .userInfo ul .userInfoThree p img{
+  width:80%;
+  height:auto;
+}
+.myCenter main .userInfo ul .userInfoFour{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.myCenter main .userInfo ul .userInfoFour a{
+  font-size:.8rem;
+  color:#ccc;
+}
+.myCenter main .centerList{
+  width:90%;
+  height:3rem;
+  margin-left: 5%;
+  margin-top:3rem;
+}
+.myCenter main .centerList ul{
+  width:100%;
+  height:3rem;
+}
+.myCenter main .centerList ul li{
+  width:100%;
+  height:1.45rem;
+  border-bottom:1px solid #333;
+  display: flex;
+  line-height: 1.45rem;
+}
+.myCenter main .centerList ul li span{
+  flex:1;
+  font-size:.6rem;
+}
+.myCenter main .centerList ul li p{
+  flex:9;
+  font-size:.7rem;
+}
+/*
+  修改个人信息页
+*/
+.Info, .Info .userInfo{
+  width:100%;
+  height:100%;
+}
+ .Info .userInfo ul{
+   width:90%;
+   height:auto;
+   margin-left:5%;
+ }
+.Info .userInfo ul li{
+  width:100%;
+  height:2rem;
+  line-height: 2rem;
+  border-bottom:1px solid #ccc;
+  display:flex;
+}
+.Info .userInfo ul li  p{
+  flex:7;
+  font-size:.7rem;
+  text-indent: 10px;
+}
+.Info .userInfo ul li  span{
+  flex:3;
+  font-size:.7rem;
+}
+.Info .userInfo ul li  span input{
+  width:50px;
+  border:none;
+  font-size:.7rem;
+}
+.Info .userInfo ul .userInfoOne{
+  width:100%;
+  height:2rem;
+  line-height: 2rem;
+  border-bottom:1px solid #ccc;
+  display:flex;
+}
+.Info .userInfo ul .userInfoOne span .titHead{
+  margin-top:.25rem;
+  width:1.5rem;
+  height:1.5rem;
+  display: inline-block;
+  border:1px solid #ccc;
+  border-radius:50%;
+  position: relative;
+}
+.Info .userInfo ul .userInfoOne span .titHead input{
+  width:1.5rem;
+  height:1.5rem;
+  opacity: 0;
+  position:absolute;
+  left:0;
+}
+.Info .userInfo ul .userInfoOne span .titHead img{
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  position:absolute;
+  left:0;
+  z-index: -1;
+}
+.Info .userInfo button{
+  width:90%;
+  height:2rem;
+  margin-left:5%;
+  margin-top:1rem;
+  font-size:.75rem;
+}
+/*
+  点餐页
+*/
+section{
+  width:100%;
+  height:100%;
+}
+.footList{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+.footList header {
+  width:100%;
+  height:2rem;
+  background:#000;
+}
+.footList header ul{
+  width:100%;
+  height:2rem;
+  display: flex;
+}
+.footList header ul .footListOne, .footList header ul .footListThree{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footList header ul .footListOne span, .footList header ul .footListThree span{
+  color:#fff;
+}
+.footList header ul .footListTwo{
+  flex:8;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footList header ul .footListTwo p{
+  font-size:.7rem;
+  color:#fff;
+}
+.footList nav{
+  width:100%;
+  height:2rem;
+  border-bottom:1px solid#ccc;
+}
+.footList nav dl{
+  width:100%;
+  height:2rem;
+  display: flex;
+}
+.footList nav dl dt{
+  flex:3;
+}
+.footList nav dl dt p{
+  width:2rem;
+  height:2rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.footList nav dl dt p img{
+  width:100%;
+  height:auto;
+}
+.footList nav dl dd{
+  flex:7;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footList nav dl dd p{
+  font-size:.7rem;
+}
+.footList main{
+  flex:1;
+  overflow: hidden;
+  display: flex;
+}
+.footList main .listLeft{
+  flex:3;
+}
+.footList main .listLeft ul{
+  width: 100%;
+  height:auto;
+}
+.footList main .listLeft ul li{
+  width:100%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom:1px solid #ccc;
+  background: #eee;
+  font-size:.7rem;
+  text-align: center;
+}
+.footList main .listRight{
+  flex:7;
+  display: flex;
+  flex-direction: column;
+}
+.footList main .listRight .change{
+  flex:1;
+}
+.footList main .listRight .change ul{
+  width:100%;
+  height:100%;
+}
+.footList main .listRight .change ul li{
+  width:100%;
+  height:3rem;
+  border-bottom:1px solid #333;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+}
+.footList main .listRight .change ul li p{
+  font-size:.8rem;
+  margin-top:.5rem;
+  margin-left:10px;
+}
+.footList main .listRight .change ul li span{
+  font-size:.7rem;
+  margin-top:.3rem;
+  margin-left:10px;
+}
+.footList main .listRight .change ul li .add{
+  width:25px;
+  height:25px;
+  border-radius:50%;
+  border:1px solid red;
+  position:absolute;
+  right:0;
+  top:1.2rem;
+  display:flex;
+  color:red;
+  justify-content: center;
+  align-items: center;
+}
+.footList footer{
+  width:100%;
+  height:2rem;
+  background:#eee;
+  display: flex;
+  align-items:center;
+  position: relative;
+}
+.footList footer p{
+  font-size: .7rem;
+  margin-left:10px;
+}
+.footList footer span{
+  font-size:.75rem;
+  color:red;
+}
+.footList footer button{
+  width:3rem;
+  height:1.5rem;
+  position: absolute;
+  right:10px;
+  top:.25rem;
+}
+/*
+  确认订单
+*/
+.showList{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+.showList header{
+  width:100%;
+  height:2rem;
+  background: #000;
+}
+.showList header ul{
+  width:100%;
+  height:2rem;
+  background: #000;
+  display: flex;
+}
+.showList header ul .showListOne{
+  flex:1.5;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff;
+  font-size:.7rem;
+}
+.showList header ul .showListOne a{
+  color:#fff;
+}
+.showList header ul .showListTwo{
+  flex:7;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff;
+  font-size:.8rem;
+}
+.showList header ul .showListThree{
+  flex:1.5;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff;
+}
+.showList .top1{
+  width:90%;
+  height:auto;
+  margin-left:5%;
+}
+.showList .top1 li{
+  width:100%;
+  height:1.5rem;
+  border-bottom:1px solid #ccc;
+  display: flex;
+}
+.showList .top1 .sinceLiOne p{
+  flex:2;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  font-size: .7rem;
+}
+.showList .top1 .sinceLiOne span{
+  flex:4;
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  font-size: .7rem;
+}
+.showList .top1 .sinceLiOne span b{
+  width:1rem;
+  height:1rem;
+  display: inline-block;
+  border:1px solid #ccc;
+}
+.showList .top1 .sinceLiOne span input{
+  width:90%;
+  height:1.1rem;
+  border:1px solid #ccc;
+}
+.showList .top1 .sinceLiTwo p{
+  flex:2;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  font-size: .7rem;
+}
+.showList .top1 .sinceLiTwo span{
+  flex:8;
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  font-size: .7rem;
+}
+.showList .top1 .sinceLiThree p{
+  flex:3;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  font-size: .7rem;
+}
+.showList .top1 .sinceLiThree span{
+  flex:7;
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  font-size: .7rem;
+}
+.showList .top2{
+   width:90%;
+   height:auto;
+   margin-left:5%;
+   margin-top:1rem;
+}
+.showList .top2 li{
+  width:100%;
+  height:1.5rem;
+  border-bottom:1px solid #ccc;
+  display: flex;
+  align-items: center;
+}
+.showList .top2 li p{
+  flex:7;
+  align-items: center;
+  font-size:.7rem;
+}
+.showList .top2 li span{
+  flex:3;
+  display: flex;
+  align-items: center;
+  font-size:.7rem;
+  justify-content: flex-end;
+}
+.showList .top3{
+  width:80%;
+  height:2rem;
+  margin-left:10%;
+  border-bottom:3px solid #eee;
+  display: flex;
+}
+.showList .top3 li{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.showList .top3 li p{
+  width:1.5rem;
+  height:1.5rem;
+}
+.showList .top3 li p img{
+  width:100%;
+  height:100%;
+}
+.showList .top3 li b{
+  font-size:.7rem;
+  padding-left:10px;
+}
+.showList main{
+  flex:1;
+  overflow: auto;
+}
+.showList main .top4{
+  width:90%;
+  height:auto;
+  margin-left:5%;
+  margin-top:1rem;
+  border-top:2px solid #333;
+}
+.showList main .top4 li{
+  width:100%;
+  height:1.5rem;
+  border-bottom:1px solid #ccc;
+  display: flex;
+}
+.showList main .top4 li .one{
+  flex:5;
+  display: flex;
+  align-items: center;
+  font-size:.7rem;
+}
+.showList main .top4 li .two{
+  flex:2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.7rem;
+}
+.showList main .top4 li .three{
+  flex:3;
+  display: flex;
+  align-items: center;
+  font-size:.7rem;
+  justify-content: flex-end;
+}
+.showList main .top4 li:last-child{
+  border-bottom:none;
+  display: flex;
+  align-items: center;
+  font-size:.7rem;
+  justify-content: flex-end;
+}
+.showList main .top5{
+  width:96%;
+  height:auto;
+  margin-top:1rem;
+  margin-left:2%;
+}
+.showList main .top5 li{
+  width:100%;
+  height:1.5rem;
+  border-bottom:1px solid #ccc;
+  display: flex;
+  align-items: center;
+  font-size: .7rem;
+}
+.showList main .top5 .person p{
+  flex:7;
+}
+.showList main .top5 .person span{
+  flex:3;
+}
+.showList main .top5 .person select{
+  width:40px;
+}
+.showList main .top5 .addInner{
+  display: flex;
+}
+.showList main .top5 .addInner p{
+  flex:2;
+}
+.showList main .top5 .addInner input{
+  flex:8;
+  height:1rem;
+  border:1px solid #ccc;
+}
+.showList .jiesuan{
+  width:80%;
+  height:1.5rem;
+  background: #ccc;
+  margin-left:10%;
+  border-radius:10px;
+  font-size:.75rem;
+}
+.showList .jiesuan a{
+  width:100%;
+  height:1.5rem;
+  color:#000;
+}
+/*
+  收货地址页
+*/
+.geturl{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+.geturl header{
+  width:100%;
+  height:2rem;
+  background: #000;
+}
+.geturl header ul{
+  width:100%;
+  height:2rem;
+  background: #000;
+  display: flex;
+}
+.geturl header ul .geturlOne{
+  flex:1.5;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff;
+}
+.geturl header ul .geturlTwo{
+  flex:7;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  color:#fff;
+  font-size:.8rem;
+}
+.geturl header ul .geturlThree{
+  flex:1.5;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff;
+}
+.geturl .search{
+  width:100%;
+  height:1.5rem;
+  display: flex;
+}
+.geturl .search p{
+  flex:3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:.7rem;
+}
+.geturl .search input{
+  flex:7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:1.3rem;
+  background: #eee;
+  border-radius:10px;
+  text-indent: 10px;
+  margin-top:.1rem;
+}
+/*
+  收货地址页
+*/
+.address {
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction:column;
+}
+.address header{
+  width:100%;
+  height:2rem;
+  background: #000;
+}
+.address header ul{
+  width:100%;
+  height:2rem;
+  background: #000;
+  display: flex;
+}
+.address header ul .addressOne{
+  flex:1.5;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff;
+}
+.address header ul .addressTwo{
+  flex:7;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  color:#fff;
+  font-size:.8rem;
+}
+.address header ul .addressThree{
+  flex:1.5;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff;
+}
+.address main{
+  flex:1;
+  overflow: auto;
+}
+.address main ul{
+  width:100%;
+  height:auto;
+}
+.address main ul li{
+  width:100%;
+  height:2rem;
+  border-bottom:1px solid #000;
+  display: flex;
+}
+.address main ul li dl{
+  flex:8;
+}
+.address main ul li dl dt{
+  font-size:.7rem;
+  text-indent: 10px;
+}
+.address main ul li dl dd{
+  font-size: .7rem;
+  text-indent: 10px;
+}
+.address main ul li p{
+  flex:2;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.address main ul li p img{
+  width:50%;
+  height:auto;
+}
+.address footer{
+  width:100%;
+  height:2rem;
+}
+.address footer button{
+  width:100%;
+  height:2rem;
+  border:1px solid #000;
+  background: #fff;
+  font-size:.8rem;
+  border-radius:5px 5px 0 0;
+}
+/*
+  编辑地址
+*/
+.changeInformation{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+.changeInformation header{
+  width:100%;
+  height:2rem;
+  background: #000;
+}
+.changeInformation header ul{
+  width:100%;
+  height:2rem;
+  background: #000;
+  display: flex;
+}
+.changeInformation header ul .changeInformationOne{
+  flex:1.5;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff;
+}
+.changeInformation header ul .changeInformationTwo{
+  flex:7;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  color:#fff;
+  font-size:.8rem;
+}
+.changeInformation header ul .changeInformationThree{
+  flex:1.5;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff;
+}
+.changeInformation ul{
+  width:90%;
+  height:auto;
+  margin-left:5%;
+}
+.changeInformation ul li{
+  width:100%;
+  height:2rem;
+  border-bottom:1px solid #ccc;
+  display: flex;
+}
+.changeInformation ul li p{
+  flex:3;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size:.7rem;
+}
+.changeInformation ul li span{
+  flex:7;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  font-size:.7rem;
+}
+.changeInformation ul li span input{
+  width:90%;
+  height:1.5rem;
+  font-size:.7rem;
+  border:none;
+}
+.changeInformation ul li dl{
+  flex:7;
+  display: flex;
+}
+.changeInformation ul li dl dt{
+  flex:7;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: .7rem;
+}
+.changeInformation ul li dl dt input{
+  width:90%;
+  height:1.5rem;
+  font-size:.7rem;
+  border:none;
+}
+.changeInformation ul li dl dd{
+  flex:3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .7rem;
+}
+.changeInformation button{
+  width:90%;
+  height:2rem;
+  background:#fff;
+  margin-top:1rem;
+  font-size:.8rem;
+  margin-left:5%;
+}
+.changeInformation button a{
+  width:100%;
+  height:100%;
+  display: inline-block;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.changeInformation ul li span b{
+  display: inline-block;
+  width:1rem;
+  height:1rem;
+  border:1px solid #000;
+}
+.changeInformation ul li span .boy{
+  background: blue;
+}
+.changeInformation ul li span .girl{
+  background: red;
+}
+/*
+  新增收货地址
+*/
+.addNew{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+.addNew header{
+  width:100%;
+  height:2rem;
+  background: #000;
+}
+.addNew header ul{
+  width:100%;
+  height:2rem;
+  background: #000;
+  display: flex;
+}
+.addNew header ul .addNewOne{
+  flex:1.5;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff;
+}
+.addNew header ul .addNewOne a {
+  width:100%;
+  height:100%;
+}
+.addNew header ul .addNewTwo{
+  flex:7;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  color:#fff;
+  font-size:.8rem;
+}
+.addNew header ul .addNewThree{
+  flex:1.5;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff;
+}
+.addNew ul{
+  width:90%;
+  height:auto;
+  margin-left:5%;
+}
+.addNew ul li{
+  width:100%;
+  height:2rem;
+  border-bottom:1px solid #ccc;
+  display: flex;
+}
+.addNew ul li p{
+  flex:3;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size:.7rem;
+}
+.addNew ul li span{
+  flex:7;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  font-size:.7rem;
+}
+.addNew ul li span input{
+  width:90%;
+  height:1.5rem;
+  font-size:.7rem;
+  border:none;
+}
+.addNew ul li dl{
+  flex:7;
+  display: flex;
+}
+.addNew ul li dl dt{
+  flex:7;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: .7rem;
+}
+.addNew ul li dl dt input{
+  width:90%;
+  height:1.5rem;
+  font-size:.7rem;
+  border:none;
+}
+.addNew ul li dl dd{
+  flex:3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .7rem;
+}
+.addNew button{
+  width:90%;
+  height:2rem;
+  background:#fff;
+  margin-top:1rem;
+  font-size:.8rem;
+  margin-left:5%;
+}
+.addNew button a{
+  width:100%;
+  height:100%;
+  display: inline-block;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.addNew ul li span b{
+  display: inline-block;
+  width:1rem;
+  height:1rem;
+  border:1px solid #000;
+}
+.addNew ul li span .boy{
+  background: blue;
+}
+.addNew ul li span .girl{
+  background: red;
+}
+/*
+  个人资料
+*/
+.single{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+.single header{
+  width:100%;
+  height:2rem;
+  background: #000;
+}
+.single header ul{
+  width:100%;
+  height:2rem;
+  background: #000;
+  display: flex;
+}
+.single header ul .singleOne{
+  flex:1.5;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff;
+}
+.single header ul .singleOne a {
+  font-size:.7rem;
+  color:#fff;
+}
+.single header ul .singleTwo{
+  flex:7;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff;
+  font-size:.8rem;
+}
+.single header ul .singleThree{
+  flex:1.5;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:#fff;
+}
+.single .singInfo{
+  width:90%;
+  height:auto;
+  margin-left:5%;
+  margin-top:.5rem;
+}
+.single .singInfo li{
+  width:100%;
+  height:1.5rem;
+  border-bottom:1px solid #ccc;
+  display: flex;
+  position: relative;
+}
+.single .singInfo li p{
+  flex:3;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:.7rem;
+}
+.single .singInfo li span{
+  flex:7;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.single .singInfo li span b{
+  display: inline-block;
+  width:1rem;
+  height:1rem;
+  border:1px solid #ccc;
+}
+.single .singInfo li span input{
+  width:80%;
+  height:1.1rem;
+  border:none;
+  color:#333;
+  font-size:.7rem;
+}
+.single .singInfo li .tip{
+  position: absolute;
+  right:0;
+  top:.2rem;
+  font-size:.7rem;
+  color:red;
+}
+.single button{
+  width:90%;
+  height:1.5rem;
+  margin-left: 5%;
+  background:#fff;
+  font-size:.8rem;
+  margin-top:.5rem;
+  border-radius:10px;
+}
+/*
+  支付成功
+*/
+.success{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+.success .img{
+  width:4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 20px auto;
+}
+.success .img img{
+  width:100%;
+  height:auto;
+}
+.success dl{
+  width:6rem;
+  height:2rem;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.success dl dt{
+  color:#000;
+  font-size:.8rem;
+  float: left;
+  font-weight:bold;
+}
+.success dl dd{
+  margin-left: .5rem;
+  color:green;
+  float: left;
+  font-size:.9rem;
+  font-weight:bold;
+}
+.success ul{
+  width:80%;
+  height:auto;
+  margin-left:10%;
+}
+.success ul li{
+  width:100%;
+  height:1.5rem;
+  border-bottom:1px solid #ccc;
+  display: flex;
+}
+.success ul li p{
+  flex:8;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size:.7rem;
+}
+.success ul li b{
+  flex:2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .7rem;
+}
+/*
+    订单详情
+*/
+.detail{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+.detail header{
+  width:100%;
+  height:2rem;
+  background: #000;
+}
+.detail header ul{
+  width:100%;
+  height:2rem;
+  background: #000;
+  display: flex;
+}
+.detail header ul .detailOne{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  font-size:.7rem;
+}
+.detail header ul .detailTwo{
+  flex:9;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color:#fff;
+  font-size:.7rem;
+}
+.detail nav{
+  width:100%;
+  height:1.5rem;
+  background: #ccc;
+  display: flex;
+}
+.detail nav p{
+  flex:2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .75rem;
+  color:red;
+  font-weight: bold;
+}
+.detail nav span{
+  flex:8;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.detail nav span button{
+  width:4rem;
+  height:1.3rem;
+  border-radius:10px;
+  background: #fff;
+  font-size:.7rem;
+}
+.detail ul{
+  width:90%;
+  height:auto;
+  margin-left: 5%;
+}
+.detail .main li{
+  width:100%;
+  height:1.5rem;
+  display: flex;
+  border-bottom:1px solid #ccc;
+}
+.detail .main .tit p{
+  flex:1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size:.7rem;
+}
+.detail .main .tit span{
+  flex:1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size:.7rem;
+  position: relative;
+}
+.detail .main .tit span p{
+  float: left;
+  width:1.5rem;
+  height:1.5rem;
+  position: absolute;
+  right:3rem;
+}
+.detail .main .tit span p img{
+  width:100%;
+  height:auto;
+}
+.detail .main li .one{
+  flex:5;
+  display: flex;
+  align-items: center;
+  font-size:.7rem;
+}
+.detail .main li .two{
+  flex:2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:.7rem;
+}
+.detail .main li .three{
+  flex:3;
+  display: flex;
+  align-items: center;
+  font-size:.7rem;
+  justify-content: flex-end;
+}
+.detail .main li:last-child{
+  display: flex;
+  align-items: center;
+  font-size:.7rem;
+  justify-content: flex-end;
+}
+.detail .mes1{
+  width:90%;
+  height:auto;
+  border-top: 3px solid #ccc;
+  margin-top: 10px;
+  margin-left:5%;
+}
+.detail .mes1 li{
+  width:100%;
+  height:1.5rem;
+  border-bottom:1px solid #ccc;
+  display: flex;
+}
+
+.detail .mes1 li p{
+  flex:6;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size:.7rem;
+}
+.detail .mes1 li span{
+  flex:4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:.7rem;
+}
+.detail .mes1 li span{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
